@@ -45,5 +45,25 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {
+          "type": "build",
+          "scope": "deps",
+          "release": "minor"
+        },
+        {
+          "type": "build",
+          "scope": "deps-dev",
+          "release": "patch"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "dottie": "2.0.0"
   }
 }
