@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
 const expect = require('chai').expect
-const RbacIndex = require('../lib/rbac-index/Rbac')
+const RbacIndex = require('../lib')
 
 describe('rbac index', () => {
   it('verify simple index', () => {
