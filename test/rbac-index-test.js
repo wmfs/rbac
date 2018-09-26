@@ -40,6 +40,13 @@ describe('rbac index', () => {
             'allows': [
               '*'
             ]
+          },
+          {
+            'stateMachineName': 'tymlyTest_unavailableToAll',
+            'roleId': 'an-undefined-role',
+            'allows': [
+              '*'
+            ]
           }
         ],
         'roles': [
@@ -72,6 +79,9 @@ describe('rbac index', () => {
           },
           'tymlyTest_runUnknownFunction': {
             '*': [ '$authenticated' ]
+          },
+          'tymlyTest_unavailableToAll': {
+            '*': [ ]
           }
         }
       }
@@ -80,6 +90,9 @@ describe('rbac index', () => {
       {
         'tymlyTest_tymlyTestAdmin': [ 'tymlyTest_tymlyTestAdmin', '$everyone' ]
       }
+    )
+    expect(rbac.unknownRoles).to.be.eql(
+      [ 'an-undefined-role' ]
     )
   })
   it('verify index', () => {
