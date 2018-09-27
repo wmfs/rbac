@@ -215,4 +215,17 @@ describe('checkRoleAuthorization', () => {
         'create' // action
       )).to.equal(false)
   })
+
+  it('do not authorize an unknown resourceType', function () {
+    expect(
+      rbacIndex.checkRoleAuthorization(
+        'molly', // userId
+        'molly', // ownerId
+        ['tymlyTest_boss', 'tymlyTest_tymlyTestAdmin', 'tymlyTest_tymlyTestReadOnly'], // roles
+        'wardrobeItem', // resourceType
+        'trousers_maguffin', // resourceName
+        'create' // action
+      )
+    ).to.equal(false)
+  })
 })
