@@ -64,6 +64,6 @@
     }
   },
   "dependencies": {
-    "dottie": "2.0.0"
+    "dottie": "2.0.1"
   }
 }
