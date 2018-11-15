@@ -19,6 +19,9 @@
     "url": "https://github.com/wmfs/rbac/issues"
   },
   "main": "./lib/index.js",
+  "dependencies": {
+    "dottie": "2.0.1"
+  },
   "devDependencies": {
     "chai": "4.2.0",
     "chai-subset": "1.6.0",
@@ -45,25 +48,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "analyzeCommits": {
-      "preset": "angular",
-      "releaseRules": [
-        {
-          "type": "build",
-          "scope": "deps",
-          "release": "minor"
-        },
-        {
-          "type": "build",
-          "scope": "deps-dev",
-          "release": "patch"
-        }
-      ]
-    }
-  },
-  "dependencies": {
-    "dottie": "2.0.1"
   }
 }
