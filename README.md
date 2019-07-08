@@ -1,7 +1,7 @@
 # rbac
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/rbac.svg)](https://www.npmjs.com/package/@wmfs/rbac)
-[![Build Status](https://travis-ci.org/wmfs/rbac.svg)](https://travis-ci.org/wmfs/rbac)
+[![CircleCI](https://circleci.com/gh/wmfs/rbac.svg?style=svg)](https://circleci.com/gh/wmfs/rbac)
 [![codecov](https://codecov.io/gh/wmfs/rbac/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/rbac)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
