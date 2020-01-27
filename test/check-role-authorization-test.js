@@ -4,71 +4,71 @@ const expect = require('chai').expect
 const RbacIndex = require('../lib/rbac-index/Rbac')
 
 const roles = [
-  { 'roleId': 'tymlyTest_boss' },
-  { 'roleId': 'tymlyTest_developer' },
-  { 'roleId': 'tymlyTest_teamLeader' },
-  { 'roleId': 'tymlyTest_tymlyTestAdmin' },
-  { 'roleId': 'tymlyTest_tymlyTestReadOnly' }
+  { roleId: 'tymlyTest_boss' },
+  { roleId: 'tymlyTest_developer' },
+  { roleId: 'tymlyTest_teamLeader' },
+  { roleId: 'tymlyTest_tymlyTestAdmin' },
+  { roleId: 'tymlyTest_tymlyTestReadOnly' }
 ]
 
 const roleMemberships = [
   {
-    'roleId': 'tymlyTest_boss',
-    'memberType': 'role',
-    'memberId': 'tymlyTest_teamLeader'
+    roleId: 'tymlyTest_boss',
+    memberType: 'role',
+    memberId: 'tymlyTest_teamLeader'
   },
   {
-    'roleId': 'tymlyTest_teamLeader',
-    'memberType': 'role',
-    'memberId': 'tymlyTest_developer'
+    roleId: 'tymlyTest_teamLeader',
+    memberType: 'role',
+    memberId: 'tymlyTest_developer'
   }
 ]
 
 const permissiones = [
   {
-    'stateMachineName': 'tymlyTest_purgeSite_1_0',
-    'roleId': 'tymlyTest_boss',
-    'allows': [ 'create' ]
+    stateMachineName: 'tymlyTest_purgeSite_1_0',
+    roleId: 'tymlyTest_boss',
+    allows: ['create']
   },
   {
-    'stateMachineName': 'tymlyTest_deletePost_1_0',
-    'roleId': 'tymlyTest_boss',
-    'allows': [ 'cancel' ]
+    stateMachineName: 'tymlyTest_deletePost_1_0',
+    roleId: 'tymlyTest_boss',
+    allows: ['cancel']
   },
   {
-    'stateMachineName': 'tymlyTest_createPost_1_0',
-    'roleId': 'tymlyTest_developer',
-    'allows': [ 'cancel' ]
+    stateMachineName: 'tymlyTest_createPost_1_0',
+    roleId: 'tymlyTest_developer',
+    allows: ['cancel']
   },
   {
-    'stateMachineName': 'tymlyTest_deletePost_1_0',
-    'roleId': 'tymlyTest_teamLeader',
-    'allows': [ 'create' ]
+    stateMachineName: 'tymlyTest_deletePost_1_0',
+    roleId: 'tymlyTest_teamLeader',
+    allows: ['create']
   },
   {
-    'stateMachineName': '*',
-    'roleId': 'tymlyTest_tymlyTestAdmin',
-    'allows': [ '*' ]
+    stateMachineName: '*',
+    roleId: 'tymlyTest_tymlyTestAdmin',
+    allows: ['*']
   },
   {
-    'stateMachineName': '*',
-    'roleId': 'tymlyTest_tymlyTestReadOnly',
-    'allows': [ 'get' ]
+    stateMachineName: '*',
+    roleId: 'tymlyTest_tymlyTestReadOnly',
+    allows: ['get']
   },
   {
-    'stateMachineName': 'tymlyTest_createPost_1_0',
-    'roleId': '$authenticated',
-    'allows': [ 'create' ]
+    stateMachineName: 'tymlyTest_createPost_1_0',
+    roleId: '$authenticated',
+    allows: ['create']
   },
   {
-    'stateMachineName': 'tymlyTest_readPost_1_0',
-    'roleId': '$everyone',
-    'allows': [ 'create' ]
+    stateMachineName: 'tymlyTest_readPost_1_0',
+    roleId: '$everyone',
+    allows: ['create']
   },
   {
-    'stateMachineName': 'tymlyTest_updatePost_1_0',
-    'roleId': '$owner',
-    'allows': [ 'create' ]
+    stateMachineName: 'tymlyTest_updatePost_1_0',
+    roleId: '$owner',
+    allows: ['create']
   }
 ]
 
