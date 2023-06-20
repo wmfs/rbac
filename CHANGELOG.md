@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/rbac/compare/v1.9.0...v1.10.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dottie to v2.0.6 ([42ce9c5](https://github.com/wmfs/rbac/commit/42ce9c5dbfde8603ec4225fddfe85f96177a1d53))
+
 # [1.9.0](https://github.com/wmfs/rbac/compare/v1.8.0...v1.9.0) (2023-06-20)
 
 
