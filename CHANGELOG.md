@@ -1,3 +1,23 @@
+# [1.9.0](https://github.com/wmfs/rbac/compare/v1.8.0...v1.9.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([7d7c52e](https://github.com/wmfs/rbac/commit/7d7c52eb9fe5a28bad221444b6f6108b17a86327))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([f707937](https://github.com/wmfs/rbac/commit/f7079376d3b5ccbc0b3a4dd9d965747fc1092047))
+* **deps-dev:** update dependency semantic-release to v21 ([6d737dd](https://github.com/wmfs/rbac/commit/6d737ddcdef9076b077a2a4ce7e20232aaf70091))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([dc3a4d2](https://github.com/wmfs/rbac/commit/dc3a4d2fe4f24559f12572e2c8606cbcbe16dc96))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([5b40cae](https://github.com/wmfs/rbac/commit/5b40cae8e1b1d46bfbab42f39d56ed3ae89b377c))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([f3f70dc](https://github.com/wmfs/rbac/commit/f3f70dcc0016bbb544d3b75ed6330c21d906af6e))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([d42bc71](https://github.com/wmfs/rbac/commit/d42bc7127e4a297992fbddc1fb08d68b9ad3a25c))
+* **deps-dev:** update dependency standard to v17.1.0 ([be307fa](https://github.com/wmfs/rbac/commit/be307fa4c8a005dc401999c6f98ad6b28d92bf51))
+* **deps:** update dependency dottie to v2.0.4 [security] ([f923901](https://github.com/wmfs/rbac/commit/f9239017783b2d0d0b5be646c88df0fbfaa795e9))
+
+
+### 📦 Code Refactoring
+
+* standard code styling ([4aeb36d](https://github.com/wmfs/rbac/commit/4aeb36dad4700720f594ce06c3c613f5024b805a))
+
 # [1.8.0](https://github.com/wmfs/rbac/compare/v1.7.0...v1.8.0) (2023-03-13)
 
 
