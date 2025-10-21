@@ -1,3 +1,31 @@
+## [1.12.0](https://github.com/wmfs/rbac/compare/v1.11.0...v1.12.0) (2025-10-21)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([#310](https://github.com/wmfs/rbac/issues/310)) ([867bab2](https://github.com/wmfs/rbac/commit/867bab2945d4ceeca3a69491db10e85360f29da1))
+* **deps-dev:** update dependency chai to v6 ([#308](https://github.com/wmfs/rbac/issues/308)) ([5743a97](https://github.com/wmfs/rbac/commit/5743a97403c33f441c8fe517b1c50e8e30feabad))
+* **deps-dev:** update dependency chai to v6.2.0 ([#314](https://github.com/wmfs/rbac/issues/314)) ([78bc6d6](https://github.com/wmfs/rbac/commit/78bc6d6dd8975c87e210fe994af5cbc681fdfbf0))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#299](https://github.com/wmfs/rbac/issues/299)) ([22f9c49](https://github.com/wmfs/rbac/commit/22f9c49ae55b28ed1c19c89df6b8d660590a393a))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#306](https://github.com/wmfs/rbac/issues/306)) ([ce0faa8](https://github.com/wmfs/rbac/commit/ce0faa8339f3d4601c8dae1646f92412ee6ee29d))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#296](https://github.com/wmfs/rbac/issues/296)) ([cb33b6c](https://github.com/wmfs/rbac/commit/cb33b6c2bdd3d956802f65d7f891d017678e0bce))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#298](https://github.com/wmfs/rbac/issues/298)) ([d213b8d](https://github.com/wmfs/rbac/commit/d213b8d3ca55dbf5b599fa5bc8ce12c76ed5bf92))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#301](https://github.com/wmfs/rbac/issues/301)) ([2d3158a](https://github.com/wmfs/rbac/commit/2d3158a3b41c9b57d1e3d7f902e7a5063030b4ed))
+* **deps-dev:** update dependency mocha to v11.6.0 ([#302](https://github.com/wmfs/rbac/issues/302)) ([e59ac10](https://github.com/wmfs/rbac/commit/e59ac10bcfd9173835e0f34d5f988bf3ca2c7357))
+* **deps-dev:** update dependency mocha to v11.7.0 ([#303](https://github.com/wmfs/rbac/issues/303)) ([09f06e8](https://github.com/wmfs/rbac/commit/09f06e8b35a9ad2c9c706191d06cb6ff722afc68))
+* **deps-dev:** update dependency mocha to v11.7.1 ([#304](https://github.com/wmfs/rbac/issues/304)) ([89a12ab](https://github.com/wmfs/rbac/commit/89a12ab7fa6c67a7d9e5674eb6e179815d359b2b))
+* **deps-dev:** update dependency mocha to v11.7.2 ([#309](https://github.com/wmfs/rbac/issues/309)) ([f4494eb](https://github.com/wmfs/rbac/commit/f4494ebf49ad7a4377cfd0a955daaee2244b76ee))
+* **deps-dev:** update dependency mocha to v11.7.3 ([#315](https://github.com/wmfs/rbac/issues/315)) ([d402a40](https://github.com/wmfs/rbac/commit/d402a40968430fb1c45772a9cc32264a47db3f61))
+* **deps-dev:** update dependency mocha to v11.7.4 ([#316](https://github.com/wmfs/rbac/issues/316)) ([bd77e02](https://github.com/wmfs/rbac/commit/bd77e029365d816303cf457aca733e936d17d097))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#297](https://github.com/wmfs/rbac/issues/297)) ([e10bfcf](https://github.com/wmfs/rbac/commit/e10bfcfb96f4515dd9d335ad31edb39d9b11fe09))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#300](https://github.com/wmfs/rbac/issues/300)) ([b36edd5](https://github.com/wmfs/rbac/commit/b36edd5d78d491e0a6fb82867a57cb079ea75c52))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#305](https://github.com/wmfs/rbac/issues/305)) ([ce75c03](https://github.com/wmfs/rbac/commit/ce75c03fa90211be203b373150db1cf71a1c013e))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#307](https://github.com/wmfs/rbac/issues/307)) ([a31e37a](https://github.com/wmfs/rbac/commit/a31e37a9ae0dacebfb2acf56b5b38a2d81f617ed))
+* **deps-dev:** update dependency semantic-release to v24.2.8 ([#311](https://github.com/wmfs/rbac/issues/311)) ([8afe553](https://github.com/wmfs/rbac/commit/8afe5535a0e27abc59f44590191886e24c449013))
+* **deps-dev:** update dependency semantic-release to v24.2.9 ([#313](https://github.com/wmfs/rbac/issues/313)) ([d7e834c](https://github.com/wmfs/rbac/commit/d7e834c9d791e78e03043b56ff2cc8028899380e))
+* **deps-dev:** update dependency semantic-release to v25 ([#317](https://github.com/wmfs/rbac/issues/317)) ([4bc458a](https://github.com/wmfs/rbac/commit/4bc458ad7e70ec51b4174800d4cc179478a4ec3c))
+* **deps-dev:** update dependency semantic-release to v25.0.1 ([#318](https://github.com/wmfs/rbac/issues/318)) ([625c6ea](https://github.com/wmfs/rbac/commit/625c6ea5dcfd0666875708f029abd6555ec068eb))
+* **deps:** revert chai to non-esm ([febd9e8](https://github.com/wmfs/rbac/commit/febd9e8ebd83a62f79e3e7be880bd75b0e520f53))
+
 ## [1.11.0](https://github.com/wmfs/rbac/compare/v1.10.0...v1.11.0) (2025-05-14)
 
 ### Build system dependencies :hammer:
