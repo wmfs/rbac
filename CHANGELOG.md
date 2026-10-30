@@ -1,3 +1,21 @@
+## [1.13.0](https://github.com/wmfs/rbac/compare/v1.12.1...v1.13.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([b084d7c](https://github.com/wmfs/rbac/commit/b084d7c36bf913c5ae5bd39d9a4677247f9a5bc0))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#346](https://github.com/wmfs/rbac/issues/346)) ([d80c416](https://github.com/wmfs/rbac/commit/d80c4169b6de0dea35fb185f67af778913dc2204))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#351](https://github.com/wmfs/rbac/issues/351)) ([6b6a8dc](https://github.com/wmfs/rbac/commit/6b6a8dcad8962471bef1318089d023285e7c18e6))
+* **deps-dev:** update dependency mocha to v12 ([#347](https://github.com/wmfs/rbac/issues/347)) ([1f063fb](https://github.com/wmfs/rbac/commit/1f063fb2b36d3e9484a84f19c1e1d6595a032dc9))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#348](https://github.com/wmfs/rbac/issues/348)) ([bbf5ae7](https://github.com/wmfs/rbac/commit/bbf5ae7867d84ecbe2359adad4feb5c31f262b38))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#349](https://github.com/wmfs/rbac/issues/349)) ([9da511f](https://github.com/wmfs/rbac/commit/9da511fa18de7be5a4d76c6db3e7f581fcd5d4a6))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#350](https://github.com/wmfs/rbac/issues/350)) ([8200f9a](https://github.com/wmfs/rbac/commit/8200f9a5226f4779fdbea2b338ff4a52a219ab54))
+* **deps:** update dependency dottie to v2.0.7 [security] ([#326](https://github.com/wmfs/rbac/issues/326)) ([f3da054](https://github.com/wmfs/rbac/commit/f3da054ea81a3bf19e4497c59ac9317825057c81))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#353](https://github.com/wmfs/rbac/issues/353)) ([3fc2b12](https://github.com/wmfs/rbac/commit/3fc2b128c697a5e0d0509ec54004c3073771bf6d))
+* use shared renovate preset [sc-34117] ([#352](https://github.com/wmfs/rbac/issues/352)) ([3775451](https://github.com/wmfs/rbac/commit/37754510e7fac0b21422e8ce02fd8c19a495b64a))
+
 ## [1.12.1](https://github.com/wmfs/rbac/compare/v1.12.0...v1.12.1) (2026-08-13)
 
 ## [1.12.0](https://github.com/wmfs/rbac/compare/v1.11.0...v1.12.0) (2025-10-21)
