@@ -1,3 +1,9 @@
+## [1.14.0](https://github.com/wmfs/rbac/compare/v1.13.0...v1.14.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency debug to v4.4.3 ([#312](https://github.com/wmfs/rbac/issues/312)) ([fa444d7](https://github.com/wmfs/rbac/commit/fa444d7084ff4105c220711802942cad5cfbf19a))
+
 ## [1.13.0](https://github.com/wmfs/rbac/compare/v1.12.1...v1.13.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
